@@ -1,5 +1,6 @@
 @RestResource(urlMapping='/CustomerInfo')
-Global class REST_AccountInfo {
+Global class REST_AccountInfo { 
+    
     public Class RsponseClass{
         public String ContactID{get;set;}
         public String AccountId{get;Set;}
